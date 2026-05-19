@@ -1,7 +1,7 @@
 # Resume — Julien Porschen
 
-This repository contains the **source files and generated PDFs** of my professional resume,  
-maintained in **Markdown** and built into **PDF** using Pandoc.
+This repository contains the **source files and generated documents** of my professional resume,  
+maintained in **Markdown** and built into **PDF and Word** using Pandoc.
 
 The goal is to keep a **single source of truth**, versioned, reproducible, and easy to maintain.
 
@@ -28,15 +28,26 @@ My background spans more than 20 years across:
 - `CV_Julien_Porschen_FR.md` — Resume (French, Markdown source)
 - `CV_Julien_Porschen_EN.md` — Resume (English, Markdown source)
 - `assets/pdf/` — Generated PDF versions
-- `generate-pdf.sh` — Build script for PDF generation
+- `assets/docx/` — Generated Word documents
+- `generate-doc.sh` — Build script for document generation
 
 ---
 
-## 🛠️ Build PDFs
+## 🛠️ Build Documents
 
-PDFs are generated using **Pandoc** and **XeLaTeX**.
+Documents are generated using **Pandoc**. PDFs require **XeLaTeX**.
 
 ### Requirements (Debian / Ubuntu)
 
 ```bash
 sudo apt install pandoc texlive-xetex
+```
+
+### Usage
+
+```bash
+./generate-doc.sh          # Generate PDFs (default)
+./generate-doc.sh pdf      # Generate PDFs
+./generate-doc.sh word     # Generate Word documents
+./generate-doc.sh all      # Generate all supported formats
+```

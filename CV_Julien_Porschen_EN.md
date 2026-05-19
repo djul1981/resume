@@ -38,6 +38,7 @@ Co-founder and infrastructure lead of an IT infrastructure services company focu
 - Definition of infrastructure strategy, standards and technical governance
 - Design of resilient, automated and cost-efficient platforms
 - Advisory role on infrastructure modernization and sustainability
+- Optimizing open-source virtualization stacks: XCP-ng / Xen Orchestra, Proxmox, Red Hat Virtualization (oVirt), libvirt/KVM/QEMU
 
 ---
 
@@ -103,6 +104,7 @@ Luxembourg
 - Integration and operation of IT infrastructures for financial clients  
 - Technical architect role for a major banking customer  
 - Highly available system architecture design  
+- Red Hat Virtualization (RHV, based on oVirt) infrastructure management and administration
 - Automation using Ansible  
 - Monitoring, supervision and level 3 production support  
 - Mentoring of junior system engineers  
