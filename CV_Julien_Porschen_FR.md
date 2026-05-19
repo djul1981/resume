@@ -38,7 +38,8 @@ Co-fondateur et responsable des infrastructures d’une société de services sp
 - Accompagnement des organisations dans la migration de VMware vers XCP-ng / Xen Orchestra  
 - Définition de la stratégie d’infrastructure, des standards et de la gouvernance technique  
 - Conception de plateformes résilientes, automatisées et économiquement optimisées  
-- Rôle de conseil sur la modernisation et la durabilité des infrastructures
+- Rôle de conseil sur la modernisation et la durabilité des infrastructures  
+- Optimisation de stacks de virtualisation open source : XCP-ng / Xen Orchestra, Proxmox, Red Hat Virtualization (oVirt), libvirt/KVM/QEMU  
 
 ---
 
@@ -106,6 +107,7 @@ Luxembourg
 - Intégration et exploitation d’infrastructures IT pour des clients du secteur financier  
 - Intervention en tant qu’architecte technique pour un client bancaire majeur  
 - Conception d’architectures systèmes hautement disponibles  
+- Gestion et administration d’une infrastructure Red Hat Virtualization (RHV, basée sur oVirt) pour les plateformes de production  
 - Automatisation des opérations et des déploiements avec Ansible  
 - Supervision, monitoring et support N3  
 - Mentorat et montée en compétences des ingénieurs systèmes  
